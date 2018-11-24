@@ -31,7 +31,7 @@
         <Label Grid.Column="0" Grid.Row="2" Content="Tickets Source(CSV):"/>
         <TextBox x:Name="ticketsSource" Grid.Column="1" Grid.Row="2" Text="scm_url = &quot;https://github.com/trilogy-group/take-onescm-molson.git&quot; AND text ~ &quot;OneSCM/Resonance.Web/Resonance.Web/ASN/ASNCreate4POSchedule.aspx.cs&quot; and type != &quot;Hand Crafted Unit Tests&quot; " Margin="3,3,118.6,3" />
 
-        <Button Grid.Column="1" Grid.Row="3" Height="24" HorizontalAlignment="Left" Margin="5" Content="Analyze Tickets" Click="Export_Click"></Button>
+        <Button Grid.Column="1" Grid.Row="3" Height="24" HorizontalAlignment="Left" Margin="5" Content="Export" Click="Export_Click"></Button>
 
         <TextBox x:Name="logTextBox" Grid.Column="1" Grid.Row="4" AcceptsReturn="True" TextWrapping="Wrap" VerticalScrollBarVisibility="Visible" IsReadOnly="True"/>
         <Button Grid.Column="1" Grid.Row="2" Height="24" HorizontalAlignment="Left" Margin="524,4,0,4" Content="Get Tickets" Click="ButtonGet_Click"/>
